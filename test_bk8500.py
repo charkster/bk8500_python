@@ -1,5 +1,5 @@
 from bk8500 import bk8500
-import time
+
 bk8500 = bk8500(com_port='COM38',debug=True)
 bk8500.enable_remote()
 bk8500.enable_cc_mode()
