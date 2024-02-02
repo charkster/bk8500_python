@@ -9,6 +9,7 @@ class bk8500():
         self.ser.timeout = 1
         self.ser.open()
         self.debug = debug
+        
     def csum(self, command):
         sum = 0
         for i in range(len(command)):
