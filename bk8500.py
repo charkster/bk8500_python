@@ -1,3 +1,6 @@
+# csum, cmd8500, printbuf functions copied verbatim from here:
+# https://github.com/BKPrecisionCorp/BK-8500-Electronic-Load/tree/master/python
+
 import serial
 
 class bk8500():
